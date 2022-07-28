@@ -397,7 +397,7 @@
             <div class="container">
                 <div class="row g-4">
                     <!-- First Feedback -->
-                    <div class="col-12 col-md-6 col-lg-6">
+                    <div class="col-12 col-md-6 col-lg-6 position-relative">
                         <!-- First Feedback -->
                         <div class="p-3 border rounded-3 bg-light">
                             <div class="d-flex justify-content-between">
@@ -424,10 +424,15 @@
                                 </div>
                             </div>
                         </div>
+                        <div
+                            class="position-absolute top-50 start-0 translate-middle rounded-pill border border-warning p-3 d-none d-md-block d-lg-block">
+                            <a href="#"><i class="fa-solid fa-angles-left text-warning"></i></a>
+                        </div>
+
                     </div>
 
                     <!-- 2nd Feedback -->
-                    <div class="col-12 col-md-6 col-lg-6">
+                    <div class="col-12 col-md-6 col-lg-6 position-relative">
                         <div class="p-3 border rounded-3 bg-light">
                             <div class="d-flex justify-content-between">
                                 <img class="p-2" src="images/comma.png" alt="">
@@ -453,13 +458,17 @@
                                 </div>
                             </div>
                         </div>
+                        <div
+                            class="position-absolute top-50 start-100 translate-middle rounded-pill bg-warning p-3 d-none d-md-block d-lg-block">
+                            <a href="#"><i class="fa-solid fa-angles-right text-light"></i></a>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 
         <!-- FAQ Head Start -->
-        <section class="container my-3">
+        <section class="container my-5">
             <div class=" d-grid col-8 mx-auto text-center">
                 <h1 class="">Frequently Asked Questions</h1>
                 <p class="text-secondary">IIt is a long established fact that a reader will be distracted by the
@@ -542,7 +551,7 @@
         </section>
 
         <!-- Trusted by companies start -->
-        <section class="container my-5">
+        <section class="container my-5 d-none d-lg-block">
             <div class=" mx-auto text-center">
                 <h1 class="text-center p-2">Trusted by over 800+ companies</h1>
                 <div>
@@ -555,6 +564,7 @@
                 </div>
             </div>
         </section>
+
     </main>
 
     <footer>
