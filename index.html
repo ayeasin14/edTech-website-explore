@@ -117,7 +117,7 @@
         <section class="container mt-5">
             <!-- Popular Courses start -->
 
-            <div class=" d-grid col-8 mx-auto p-5 text-center">
+            <div class=" d-grid col-12 col-md-10 col-lg-8 mx-auto p-5 text-center">
                 <h1 class="p-1">Discover Our Popular Courses</h1>
                 <p>It is a long established fact that a reader will be distracted by the readable content of a page when
                     looking at its layout.</p>
@@ -275,19 +275,46 @@
         </section>
 
         <!-- Ready to join start -->
-        <section class="container my-5 py-3">
+        <section class="container my-5 ">
 
             <div class="container text-center">
                 <!-- Stack the columns on mobile by making one full-width and the other half-width -->
                 <div class="row bg-primary p-5 rounded-3">
-                    <div class="col-md-7 text-white text-start">
+                    <div class="col-12 col-md-12 col-lg-7 text-white text-start">
                         <h1>Ready to join?</h1>
                         <p>It is a long established fact that a reader will be distracted by the readable content of a
                             page when looking at its layout.</p>
                     </div>
-                    <div class="col-6 col-md-5 p-5">
-                        <button type="button" class="btn btn-light fw-bold text-primary">Register now</button>
+
+                    <!-- Button trigger modal -->
+                    <div class="col-12 col-md-12 col-lg-5 p-5">
+                        <button type="button" class="btn btn-light fs-6 fw-bold text-primary" data-bs-toggle="modal"
+                            data-bs-target="#staticBackdrop"> Register Now </button>
                     </div>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                        tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    For Register Please make sure that you Provide Real Information.
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Sorry! I am
+                                        Fake</button>
+                                    <button type="button" class="btn btn-primary"> Ok, I Understood</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- model testing -->
                 </div>
             </div>
 
@@ -297,7 +324,7 @@
 
         <section class="container my-5 py-3">
 
-            <div class=" col-5">
+            <div class=" col-10 col-md-6 col-lg-6">
                 <h1 class="">Meet Our Successfull Students</h1>
                 <p class="text-secondary">It is a long established fact that a reader will be distracted by the readable
                     content of a page when looking at its layout.</p>
@@ -305,9 +332,9 @@
 
 
             <div class="row g-3">
-                <div class="col-3">
+                <div class="col-12 col-md-6 col-lg-3">
                     <div class=" border rounded-3 bg-light">
-                        <img class="img-fluid" src="images/student/student-1.png" alt="">
+                        <img class="img-fluid w-100" src="images/student/student-1.png" alt="">
                         <div class="p-3">
                             <h4 class="text-secondary">Awlad Hossain</h4>
                             <p class="text-muted">UIUX Designer</p>
@@ -316,9 +343,9 @@
                 </div>
 
 
-                <div class="col-3">
+                <div class="col-12 col-md-6 col-lg-3">
                     <div class=" border rounded-3 bg-light">
-                        <img class="img-fluid" src="images/student/student-2.png" alt="">
+                        <img class="img-fluid w-100" src="images/student/student-2.png" alt="">
                         <div class="p-3">
                             <h4 class="text-secondary">Jannatul Islam</h4>
                             <p class="text-muted">Motion Design</p>
@@ -327,9 +354,9 @@
                 </div>
 
 
-                <div class="col-3">
+                <div class="col-12 col-md-6 col-lg-3">
                     <div class=" border rounded-3 bg-light">
-                        <img class="img-fluid" src="images/student/student-3.png" alt="">
+                        <img class="img-fluid w-100" src="images/student/student-3.png" alt="">
                         <div class="p-3">
                             <h4 class="text-secondary">Imran Hossain</h4>
                             <p class="text-muted">Graphic Designer</p>
@@ -338,9 +365,9 @@
                 </div>
 
 
-                <div class="col-3">
+                <div class="col-12 col-md-6 col-lg-3">
                     <div class=" border rounded-3 bg-light">
-                        <img class="img-fluid" src="images/student/student-4.png" alt="">
+                        <img class="img-fluid w-100" src="images/student/student-4.png" alt="">
                         <div class="p-3">
                             <h4 class="text-secondary">Nishi Akter</h4>
                             <p class="text-muted">Web Developer</p>
@@ -349,7 +376,7 @@
                 </div>
             </div>
 
-            <div class="d-grid col-2 mx-auto m-5">
+            <div class="d-grid col-4 col-md-3 col-lg-3 mx-auto m-5">
                 <button class="btn btn-primary" type="button">View All</button>
             </div>
 
@@ -370,7 +397,7 @@
             <div class="container">
                 <div class="row g-4">
                     <!-- First Feedback -->
-                    <div class="col-6">
+                    <div class="col-12 col-md-6 col-lg-6">
                         <!-- First Feedback -->
                         <div class="p-3 border rounded-3 bg-light">
                             <div class="d-flex justify-content-between">
@@ -400,7 +427,7 @@
                     </div>
 
                     <!-- 2nd Feedback -->
-                    <div class="col-6">
+                    <div class="col-12 col-md-6 col-lg-6">
                         <div class="p-3 border rounded-3 bg-light">
                             <div class="d-flex justify-content-between">
                                 <img class="p-2" src="images/comma.png" alt="">
@@ -440,7 +467,7 @@
             </div>
 
             <!-- Frequently Asked Questions Start -->
-            <div class=" d-grid col-8 mx-auto text-center">
+            <div class=" d-grid col-12 col-md-8 col-lg-8 mx-auto text-center">
 
                 <div class="accordion" id="accordionExample">
                     <div class="accordion-item">
@@ -532,7 +559,7 @@
 
     <footer>
         <section class=" bg-black p-5 text-secondary">
-            <div class="mx-auto text-center d-grid col-3">
+            <div class="mx-auto text-center d-grid col-10 col-md-6 col-lg-3 ">
                 <h1>Pro Digital</h1>
                 <p>Office 41, Yeasin's Digital Point, Lakshmipur Muscat, Sultanate of Chittagong</p>
                 <div><a href="#">Privacy Ploicy</a> <span>|</span> <a href="#">Terms of use</a></div>
